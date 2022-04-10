@@ -109,11 +109,11 @@ export default function App() {
         </div>
         <div>
         <input
-          id="time-before-arrival"
+          id="time-to-stay"
           class="form-field"
           type="number"
-          placeholder="Months for Arrival"
-          name="time-before-arrival"
+          placeholder="Number of Months to Stay"
+          name="time-to-stay"
         />
         </div>
         
