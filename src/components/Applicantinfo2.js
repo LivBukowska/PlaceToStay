@@ -1,125 +1,94 @@
 import React from "react";
-import "./index.css";
 
 export default function App() {
   return (
     <div class="form-container">
       <form class="register-form">
-      <h2>Profile Data</h2>
-        <header>List of People</header>
+        <header>Place Information</header>
         <input
-          id="men"
+          id="city"
+          class="form-field"
+          type="text"
+          placeholder="City"
+          name="city"
+        />
+        <div>
+        <input
+          id="Number"
           class="form-field"
           type="number"
-          placeholder="Number of Men in Group"
-          name="Men"
+          placeholder="Number of Rooms"
+          name="number"
         />
+        </div>
+        <div></div>
+        
+        <div>
         <input
-          id="women"
+          id="totalroom"
           class="form-field"
           type="number"
-          placeholder="Number of Women in Group"
-          name="women"
+          placeholder="Total Area of Rooms"
+          name="totalroom"
         />
-         <input
-          id="children"
-          class="form-field"
-          type="number"
-          placeholder="Number of Children in Group"
-          name="children"
-        />
-        {/*
-                  <header>Please Select the Ages for the Children</header>
-        <input
-          id="children-0-2"
-          class="form-field"
-          type="checkbox"
-          placeholder="The Children 0-2"
-          name="children0-2"
-        />
-        <label for="children-0-2">0-2 years old</label>
         </div>
-        <div>
-        <input
-          id="children-3-7"
-          class="form-field"
-          type="checkbox"
-          placeholder="The Children 3-7"
-          name="children3-7"
-        />
-        <label for="children-3-7">3-7 years old</label>
-        </div>
-        <div>
-        <input
-          id="children-8-10"
-          class="form-field"
-          type="checkbox"
-          placeholder="The Children 8-10"
-          name="children8-10"
-        />
-        <label for="children-8-10">8-10 years old</label>
-        </div>
-        <div>
-        <input
-          id="children-11-13"
-          class="form-field"
-          type="checkbox"
-          placeholder="The Children 11-13"
-          name="children11-13"
-        />
-        <label for="children-11-13">11-13 years old</label>
-        </div>
-        <div>
-        <input
-          id="children-13"
-          class="form-field"
-          type="checkbox"
-          placeholder="The Children 13+"
-          name="children-13"
-        />
-        <label for="children-13">13+ years old</label>
-  </div> */}
 
         <div>
         <input
-          id="bedrooms"
+          id="Numberofbedrooms"
           class="form-field"
           type="number"
           placeholder="Number of Bedrooms"
           name="bedrooms"
         />
         </div>
+
         <div>
         <input
-          id="Minimum-Square-Meters"
-          class="form-field"
-          type="text"
-          placeholder="Minimum Square Meters"
-          name="bedrooms"
-        />
-        </div>
-        <div>
-        <input
-          id="Monthly-Funds"
-          class="form-field"
-          type="text"
-          placeholder="Monthly Funds Available"
-          name="monthly-funds"
-        />
-        </div>
-        <div>
-        <input
-          id="time-to-stay"
+          id="totalbedrooms"
           class="form-field"
           type="number"
-          placeholder="Number of Months to Stay"
-          name="time-to-stay"
+          placeholder="Total Area of Bedrooms"
+          name="totalbedroom"
         />
         </div>
         
+        <div>
+        <input
+          id="rentprice"
+          class="form-field"
+          type="text"
+          placeholder="Rent Price"
+          name="rentprice"
+        />
+        </div>
+
+        <div>
+        <input
+          id="monthsforrental"
+          class="form-field"
+          type="number"
+          placeholder="Number of Months for Rental"
+          name="monthsforrental"
+        />
+        </div>
+
+        <p>Preferred Sex of the Adult</p>
+        <div>
+          <select name="adults" id="adults">
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="both">Both</option>
+        </select>
+        </div>
+
+
         <button class="form-field" type="submit">
           Submit
         </button>
+        <div>
+          
+        </div>
       </form>
     </div>
   );
