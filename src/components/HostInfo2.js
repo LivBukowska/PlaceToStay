@@ -13,14 +13,14 @@ export default function App() {
           name="city"
         />
         <div>
-        </div>
         <input
-          id="surname"
+          id="Numb"
           class="form-field"
-          type="text"
-          placeholder="Surname"
+          type="number"
+          placeholder="Number of Rooms"
           name="surname"
         />
+        </div>
         <div>
         </div>
         Photo
