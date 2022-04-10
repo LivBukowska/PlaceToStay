@@ -118,7 +118,7 @@ export default function App() {
         </div>
         
         <button class="form-field" type="submit">
-          Continue
+          Submit
         </button>
       </form>
     </div>
