@@ -7,7 +7,7 @@ import { host } from "../../data/host.js";
 
 const Profile = () => {
     return (
-        <profile>
+        <profile class="container-fluid">
             <div className="profile__container">
                 <div className="profile__title">
                     <img src={hello} alt="hello"/>
@@ -56,11 +56,6 @@ const Profile = () => {
                 <div className="charts">
                     <div className="charts__left">
                         <div className="charts__left__title">
-                            <div>
-                                <h1>New Host</h1>
-                                <p>{host[0].city}</p>
-                            </div>
-                            <i><FaLightbulb /></i>
                         </div>
 
                         <ProfileCard />
